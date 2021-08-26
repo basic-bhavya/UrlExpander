@@ -1,0 +1,22 @@
+{
+  "name": "URL Expander",
+  "description": "Expand shortened URLs to get where they actually go to",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "./images/icon-128x128.png",
+    "48": "./images/icon-48x48.png",
+    "16": "./images/icon-16x16.png"
+  },
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["linkInjection.js"]
+    }
+  ],
+  "permissions": ["contextMenus"],
+  "host_permissions": ["<all_urls>"]
+}
