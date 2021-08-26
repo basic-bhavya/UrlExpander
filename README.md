@@ -3,6 +3,15 @@ Url Expander | A Chrome extension which expands a shortened url to its full addr
 
 <img src="https://github.com/basic-bhavya/UrlExpander/blob/main/UrlExpander/images/icon-128x128.png" alt="url expander icon">
 
+# How to install
+
+2. Go to "chrome://extensions" in your chromium based browser
+3. Turn on developer mode
+4. Select "Load Unpacked"
+5. From explorer, navigate to "UrlExpander" folder
+
+If successfully installed, it should show up in your installed extensions
+
 # How to use
 
 1. Right-click on any shortened link and select "Expand URL" from context menu 
